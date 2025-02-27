@@ -33,7 +33,7 @@ end
  quantizedSineWave = round(y);
 
 % Convert to binary code and format for LUT
-binarySineWave = dec2bin(quantizedSineWave, 8);
+binarySineWave = dec2bin(quantizedSineWave, Num_bit);
 lutEntries = strings(OSR, 1);
 
 for i = 1:OSR
