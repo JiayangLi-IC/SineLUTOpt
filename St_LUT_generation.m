@@ -7,7 +7,7 @@ close all;
 R=214;                    % DAC quantization step
 p = 15;                   % Number of square wave pairs
                           % Oversampling rate =  4*(p+1); 
-Num_bit = 9;              % Number of bits in the LUT data. Should be adjusted according to R 
+Num_bit = 8;              % Number of bits in the LUT data. Should be adjusted according to R 
 
 
 %other parameters
